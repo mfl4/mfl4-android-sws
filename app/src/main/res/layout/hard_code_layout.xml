@@ -9,25 +9,11 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world"
         android:layout_marginTop="@dimen/margin_top_first_element"
+        android:text="@string/hello_world"
         android:textColor="@color/black" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button_oke"
-        android:background="@color/primary"
-        android:layout_marginTop="@dimen/margin_top_element"
-        android:textColor="@color/white"
-        android:minHeight="@dimen/button_height"/>
+    <Button style="@style/button_oke" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button_oke"
-        android:background="@color/primary"
-        android:layout_marginTop="@dimen/margin_top_element"
-        android:textColor="@color/white"
-        android:minHeight="@dimen/button_height"/>
+    <Button style="@style/button_download" />
 </LinearLayout>
